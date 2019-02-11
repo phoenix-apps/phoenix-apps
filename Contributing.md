@@ -59,7 +59,7 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 
 1. When you're ready to start work, clone the repository onto your local development environment
 
-1. Make sure you're on the `develop` branch before you begin
+1. If there is a `develop` branch, make sure you're on the `develop` branch before you begin. If not, ensure you're on the `master` branch
 
 1. Create a new branch from `develop` with the naming convention of `issue/{ticket #} - {ticket title}` where `ticket #` is replaced with the issue ID, and {ticket title} is replaced by the title of the ticket
 
