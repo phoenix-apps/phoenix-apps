@@ -1,2 +1,2 @@
 # Standards
-Contains a collection of the standards we expect from all members and contributors in the Phoenix Apps organisation, as well as Phnx
+This repository contains standards for communications, language, PR techniques and coding across Phoenix Apps
