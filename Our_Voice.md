@@ -40,6 +40,5 @@ With this: **You need an ID that looks like this: someone@example.com**
 
 Most of the time, start each statement with a verb. Edit out you can and there is, there are, there were. 
 
-For example,  
-Replace this: **You can access Phoenix apps across your devices, and you get live updates and information.**  
+For example, replace this: **You can access Phoenix apps across your devices, and you get live updates and information.**  
 With this: **Access Phoenix apps online, access them from all your devices, and share the latest information with coworkers.**
