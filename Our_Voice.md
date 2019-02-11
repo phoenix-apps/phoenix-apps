@@ -33,18 +33,14 @@ Talking to one another and our customers in a way that’s warm and relaxed, cri
 
 Read your text aloud. Does it sound like something a real person would say? Be friendly and conversational. No. Robot. Words. 
 
-For example:
-
-Replace this: **Invalid ID**
-
+For example  
+Replace this: **Invalid ID**  
 With this: **You need an ID that looks like this: someone@example.com**
 
 # Revise weak writing
 
 Most of the time, start each statement with a verb. Edit out you can and there is, there are, there were. 
 
-For example:
-
-Replace this: **You can access Phoenix apps across your devices, and you get live updates and information.**
-
+For example  
+Replace this: **You can access Phoenix apps across your devices, and you get live updates and information.**  
 With this: **Access Phoenix apps online, access them from all your devices, and share the latest information with coworkers.**
