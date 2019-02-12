@@ -2,11 +2,11 @@
 
 This contains a guide for how to setup your computer, and the basic tools you'll need for any single project
 
-# Tools You'll Need
+# Tools you'll need
 
 1. A Git Client - use your favourite (like [GitHub for Desktop](https://desktop.github.com) or [SourceTree](https://www.sourcetreeapp.com/)), or if you'd rather stick to a terminal, pick up the [git terminal client](https://git-scm.com/downloads)
 
-## Back End
+## Back end
 
 1. Install the [dotnet SDK](https://dotnet.microsoft.com/download) which matches your operating system
 
@@ -20,7 +20,7 @@ This contains a guide for how to setup your computer, and the basic tools you'll
   
 1. Install [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
 
-## Front End
+## Front end
 
 1. Install [NodeJS](https://nodejs.org/en/download/)
 
@@ -42,7 +42,7 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 1. [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 1. [VS Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)
 
-## Dev Ops
+## Dev-ops
 
 1. Install [Powershell Core](https://github.com/powershell/powershell#get-powershell) (also known as Powershell 6)
 
@@ -51,7 +51,7 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 1. Travis-CI scripts can use Linux and Unix specific tools like `curl` and `zip`, which are not available on Windows. Equivalents can be found relatively easily, however, it is recommended that you test these in a Linux VM.
   > If you're on Windows, you can use any Linux VM you like, but we recommend [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu distro
 
-# Submitting a Change
+# Submitting a change
 
 1. Always create a PR for your change - never directly push your changes to `develop` or `master` branch
 
@@ -73,6 +73,6 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 
 We follow a strict code of conduct. Please read it [here](Code_of_Conduct.md) before making any community contributions (including comments)
 
-# Most importantly though
+# Most importantly
 From the team at Phoenix Apps Ltd,  
 Thank you
