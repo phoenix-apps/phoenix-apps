@@ -127,7 +127,6 @@ namespace System.Collections.Generics
 
 # Testing
 
-We closely follow 2 conventions for our tests:
 1. The test method's name should adere to this style: MethodName_StateUnderTest_ExpectedBehavior
 1. The test method's body should adere to this style: Arrange, Act, Assert. The arrange, act, assert comments can be ommitted, but are present in the example below for illustration.
 1. Use NUnit for all unit tests, and Moq where necessary
