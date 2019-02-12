@@ -124,3 +124,27 @@ namespace System.Collections.Generics
     }
 }
 ```
+
+# Testing
+
+We closely follow 2 conventions for our tests:
+1. The test method's name should adere to this style: MethodName_StateUnderTest_ExpectedBehavior
+1. The test method's body should adere to this style: Arrange, Act, Assert. The arrange, act, assert comments can be ommitted, but are present in the example below for illustration.
+1. Use NUnit for all unit tests, and Moq where necessary
+1. Particularly in our Phnx work, any additional logic or changes you make should have automated tests that validate their logic. Avoid writing tests that test _how_ your code works (such as calling other methods), but assert that the code produces the result (or exception) you expect. In non-phnx work, it is crucial that you test fragile or complex logic (such as logically complex services), but it is not as important to test for edge cases that are not generally expected. 
+
+For example
+```cs
+[Test]
+public void NewPerson_WithAValidEmail_AssignsTheEmailForTheNewUser()
+{
+   // Arrange
+   string email = "someone@example.com";
+   
+   // Act
+   Person newPerson = new Person(email);
+   
+   // Assert
+   Assert.AreEqual(email, newPerson.Email);
+}
+```
