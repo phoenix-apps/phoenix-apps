@@ -15,7 +15,7 @@ This contains a guide for how to setup your computer, and the basic tools you'll
 1. Some of our applications require secret keys that only trusted developers have access to. If you want access to these keys, please get in contact with another member of the team who will give you the keys, and show you how to keep them out of source control
 
 1. Install [SQL Server](https://www.microsoft.com/en-gb/sql-server/sql-server-downloads). This is a long process that depends entirely on your specific platform. If you're on OS X, you'll need to install the docker container version (which means you'll also need [docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac))
-    > [Windows Installation Guide](https://docs.microsoft.com/en-gb/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?view=sql-server-2017). Be sure to take specific care at step 13 to set the Instance ID to `MSSQLSERVER`  
+    > [Windows Installation Guide](https://docs.microsoft.com/en-gb/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup?view=sql-server-2017). Be sure to take specific care at step 13 to set the Instance ID to `MSSQLSERVER`
     > [Ubuntu Installation Guide](https://docs.microsoft.com/en-gb/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-2017). Be sure to take specific care to set the default Instance ID to `MSSQLSERVER`
 
 1. Install [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
@@ -29,6 +29,8 @@ This contains a guide for how to setup your computer, and the basic tools you'll
 1. Install [Visual Studio Code](https://code.visualstudio.com/Download)
 
 1. Install the [Debugger For Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) VS Code Extension
+
+1. Install the [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) VS Code Extension
 
 Other Visual Studio Code extensions that we recommend, but are not required are as follows:
 1. [Angular Language Services](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
@@ -74,5 +76,5 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 We follow a strict code of conduct. Please read it [here](Code_of_Conduct.md) before making any community contributions (including comments)
 
 # Most importantly
-From the team at Phoenix Apps Ltd,  
+From the team at Phoenix Apps Ltd,
 Thank you
