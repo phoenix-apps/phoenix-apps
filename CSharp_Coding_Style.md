@@ -2,7 +2,7 @@
 
 For non code files (xml, etc), our current best guidance is consistency. When editing files, keep new code and changes consistent with the style in the files. For new files, it should conform to the style for that component. If there is a completely new component, anything that is reasonably broadly accepted is fine.
 
-The general rule we follow is "use Visual Studio defaults" with the exception of private fields.
+The general rule we follow is "use Visual Studio defaults" (with the exception of private fields).
 
 1. We use [Allman style](http://en.wikipedia.org/wiki/Indent_style#Allman_style) braces, where each brace begins on a new line. Braces are always preferred over a single line statement block. If a block is used, the block must be properly indented on its own line and must not be nested in other statement blocks that use braces (See [dotnet/corefx issue 381](https://github.com/dotnet/corefx/issues/381) for examples). One exception is that a `using` statement is permitted to be nested within another `using` statement by starting on the following line at the same indentation level, even if the nested `using` contains a controlled block.
 2. We use four spaces of indentation (no tabs).
