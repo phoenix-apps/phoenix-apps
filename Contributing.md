@@ -51,7 +51,7 @@ Other Visual Studio Code extensions that we recommend, but are not required are 
 
 1. Build tools you'll need may include NodeJS and npm (see Front End above) as well as dotnet (see Back End above)
 
-1. Travis-CI scripts can use Linux and Unix specific tools like `curl` and `zip`, which are not available on Windows. Equivalents can be found relatively easily, however, it is recommended that you test these in a Linux VM.
+1. CI scripts can use Linux and Unix specific tools like `curl` and `zip`, which are not available on Windows. Equivalents can be found relatively easily, however, it is recommended that you develop/ test these in a Linux VM.
   > If you're on Windows, you can use any Linux VM you like, but we recommend [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with an Ubuntu distro
 
 # Submitting a change
