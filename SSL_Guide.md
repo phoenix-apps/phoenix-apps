@@ -9,7 +9,7 @@
 ## Converting the certificates from \*.pem to \*.pvk
 > #### Windows only
 > You'll need to copy the generated certs out of the `/archive` (NOTE: `/archive`, NOT `/live`) folder that they were generated in as the terminal does not have permission by default. 
-> 1. Finding out where the WSL files are stored on Windows is extremely difficult. Start [here](https://superuser.com/questions/1067373/where-is-the-linux-subsystems-filesystem-located-in-windows-10)
+> 1. Where the WSL files are stored on Windows is unique to each windows update, and linux distro. Start [here](https://superuser.com/questions/1067373/where-is-the-linux-subsystems-filesystem-located-in-windows-10) for a guide to finding yours
 > 1. Copy the contents to a folder that you can access easily like your documents
 > 1. In your WSL, then head to the location you created. You can access your Windows file system via `/mnt` from WSL
 
