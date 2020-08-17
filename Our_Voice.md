@@ -1,7 +1,7 @@
 # Our voice
 
 ## What do we mean by "Our voice?"
-The Phoenix voice is how we talk to people. It’s the combination of attitude, style and succinctness.
+The Phoenix Apps voice is how we talk to people. It’s the combination of attitude, style and succinctness.
 
 It's important that we're always polite, and that we adapt our tone depending on the situation. We must be serious, empathetic, and sometimes light-hearted depending on the situation and context.
 
